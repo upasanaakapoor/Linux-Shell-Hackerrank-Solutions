@@ -1,0 +1,7 @@
+#!/bin/bash
+count=1
+while [[ $count -le 99 ]]
+do
+    echo $count
+    let "count=count+2"
+done
