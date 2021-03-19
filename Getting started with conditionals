@@ -1,0 +1,9 @@
+#!/bin/bash
+read str
+if [[ ($str == 'Y') || ($str == 'y')]]
+then 
+    echo "YES"
+    elif [[ ($str == 'N') || ($str == 'n')]]  
+    then
+        echo "NO"
+fi
